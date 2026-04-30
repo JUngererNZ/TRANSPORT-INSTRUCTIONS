@@ -1,0 +1,259 @@
+{
+  "template_info": {
+    "packing_list_file": "Copy-of-Packing-list-6P300139-loadplan-excl-bucket.xlsx",
+    "transport_instruction_file": "2604DSI2801-TRANSPORT-INSTRUCTION-BA3195-CAT-6030-NATRANS-LOAD1-2.xlsx",
+    "total_instruction_blocks": 11,
+    "notes": [
+      "Edit one instruction block per trailer / transport instruction.",
+      "Keep copy_no unique from 1 to 11.",
+      "Add exact Excel destination cells once the TI layout is confirmed."
+    ]
+  },
+  "mapping": {
+    "transport_instruction_cells": {
+      "trailer_name": "",
+      "item_1_description": "",
+      "item_1_dimensions": "",
+      "item_1_gross_weight": "",
+      "item_2_description": "",
+      "item_2_dimensions": "",
+      "item_2_gross_weight": "",
+      "item_3_description": "",
+      "item_3_dimensions": "",
+      "item_3_gross_weight": ""
+    }
+  },
+  "instructions": [
+    {
+      "copy_no": 1,
+      "trailer_name": "load8 - tri-axle",
+      "line_items": [
+        {
+          "description": "Riser AR - FOBS CAB?",
+          "dimensions_mm": "3640 x 1900 x 3160",
+          "gross_weight_kg": 5700
+        },
+        {
+          "description": "Cooler AR HYD",
+          "dimensions_mm": "3900 x 1550 x 2900",
+          "gross_weight_kg": 5400
+        },
+        {
+          "description": "CABIN",
+          "dimensions_mm": "3760 x 2760 x 3000",
+          "gross_weight_kg": 4294
+        }
+      ]
+    },
+    {
+      "copy_no": 2,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 3,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 4,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 5,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 6,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 7,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 8,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 9,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 10,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    },
+    {
+      "copy_no": 11,
+      "trailer_name": "",
+      "line_items": [
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        },
+        {
+          "description": "",
+          "dimensions_mm": "",
+          "gross_weight_kg": ""
+        }
+      ]
+    }
+  ]
+}

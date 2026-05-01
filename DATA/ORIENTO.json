@@ -1,0 +1,103 @@
+{
+  "template_info": {
+    "vendor": "ORIENTO",
+    "instruction_count": 3,
+    "template_file": "TEMPLATE-TRANSPORT-INSTRUCTION-BAXXX-CAT-XXX-TRANSPORTER.xlsx",
+    "notes": [
+      "Transporter and shipment fields are defined once in common_sheet_fields.",
+      "Only instruction-specific cargo lines and per-copy overrides need to be edited below.",
+      "Each instruction block will create one Excel transport instruction file from the template."
+    ]
+  },
+  "common_sheet_fields": {
+    "A18_transporter": "ORIENTO",
+    "F18_transporter_contact_person": "DANIEL",
+    "F20_client": "BARTRAC EQUIPMENT",
+    "A21_fml_freight_solutions_ref": "2604DSI2801",
+    "A25_deliver_to": "MUTANDA MINING SARL, MUTANDA MINING SARL SIEGE SOCIAL, PROVINCE DE LUALABA,",
+    "A46_ref_nr": "BA3195"
+  },
+  "instructions": [
+    {
+      "copy_no": 1,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": 11,
+            "description": "LINK1",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          }
+        ]
+      }
+    },
+    {
+      "copy_no": 2,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          }
+        ]
+      }
+    },
+    {
+      "copy_no": 3,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          },
+          {
+            "source_load_nr": "",
+            "description": "",
+            "measurement": "",
+            "gross_weight_kg": ""
+          }
+        ]
+      }
+    }
+  ]
+}

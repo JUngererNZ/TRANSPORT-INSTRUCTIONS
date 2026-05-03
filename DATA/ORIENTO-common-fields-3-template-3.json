@@ -1,0 +1,163 @@
+{
+  "template_info": {
+    "vendor": "ORIENTO",
+    "instruction_count": 3,
+    "template_file": "TEMPLATE-TRANSPORT-INSTRUCTION-BAXXX-CAT-XXX-TRANSPORTER-2.xlsx",
+    "notes": [
+      "Transporter and shipment fields are defined once in common_sheet_fields.",
+      "Only instruction-specific cargo lines and per-copy overrides need to be edited below.",
+      "Each instruction block will create one Excel transport instruction file from the template."
+    ]
+  },
+  "common_sheet_fields": {
+    "A18_transporter": "ORIENTO",
+    "F18_transporter_contact_person": "DANIEL",
+    "F20_client": "BARTRAC EQUIPMENT",
+    "A21_fml_freight_solutions_ref": "2604DSI2801",
+    "A25_deliver_to": "MUTANDA MINING SARL, MUTANDA MINING SARL SIEGE SOCIAL, PROVINCE DE LUALABA,",
+    "A46_ref_nr": "BA3195"
+  },
+  "instructions": [
+    {
+      "copy_no": 1,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": 1,
+            "description": "STICK AR",
+            "measurement": "6200MM x 2200MM x 2670MM",
+            "gross_weight_kg": "16300"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "EXHAUST-1",
+            "measurement": "2000MM x 1200MM x 1240MM",
+            "gross_weight_kg": "259"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "EXHAUST-2",
+            "measurement": "2000MM x 1200MM x 1240MM",
+            "gross_weight_kg": "259"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "GUARD AS",
+            "measurement": "1800MM x 1700MM x 250MM",
+            "gross_weight_kg": "249"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "SLEWING-GEAR",
+            "measurement": "1500MM x 1200MM x 1820MM",
+            "gross_weight_kg": "2602"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "BOOM CYLINDER",
+            "measurement": "5100MM x 920MM x 1060MM",
+            "gross_weight_kg": "5992"
+          },
+          {
+            "source_load_nr": 1,
+            "description": "PIN",
+            "measurement": "2800MM x 1200MM x 800MM",
+            "gross_weight_kg": "1638"
+          }
+        ]
+      }
+    },
+    {
+      "copy_no": 2,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": 2,
+            "description": "CATWALK for BOOM",
+            "measurement": "4000MM x 1800MM x 950MM",
+            "gross_weight_kg": "1082"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "EMERGENCY SHUT DOWN",
+            "measurement": "1800M x 800MM x 850MM",
+            "gross_weight_kg": "252"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "HOSES",
+            "measurement": "4000M x 1600MM x 800MM",
+            "gross_weight_kg": "830"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "HANDRAILS",
+            "measurement": "4000MM x 2000MM x 1700MM",
+            "gross_weight_kg": "777"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "HARDWARE 1",
+            "measurement": "1500MM x 1000MM x 900MM",
+            "gross_weight_kg": "453"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "STICK CYLINDER",
+            "measurement": "4800MM x 920MM x 1060MM",
+            "gross_weight_kg": "5530"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "INSTALLATION GP = BOLTS, NUTS, WASHERS",
+            "measurement": "3000MM x 1500MM x 1000MM",
+            "gross_weight_kg": "1140"
+          },
+          {
+            "source_load_nr": 2,
+            "description": "HARDWARE 2",
+            "measurement": "1200M x 1000MM x 630MM",
+            "gross_weight_kg": "325"
+          }
+        ]
+      }
+    },
+    {
+      "copy_no": 3,
+      "sheet_field_overrides": {},
+      "loading_cargo_details": {
+        "range": "F43:F50",
+        "rows": [
+          {
+            "source_load_nr": 3,
+            "description": "CONDENSER",
+            "measurement": "1600MM x 1170MM x 1260MM",
+            "gross_weight_kg": "335"
+          },
+          {
+            "source_load_nr": 3,
+            "description": "GREASE CONTAINER",
+            "measurement": "1980MM x 1520MM x 2328MM",
+            "gross_weight_kg": "1956"
+          },
+          {
+            "source_load_nr": 3,
+            "description": "RETRACTABLE LADDER",
+            "measurement": "6500MM x 1100MM x 2350MM",
+            "gross_weight_kg": "1483"
+          },
+          {
+            "source_load_nr": 3,
+            "description": "EMERGENCY LADDER",
+            "measurement": "4300MM x 1000MM x 2400MM",
+            "gross_weight_kg": "1582"
+          }
+        ]
+      }
+    }
+  ]
+}

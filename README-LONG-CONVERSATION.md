@@ -816,3 +816,4 @@ That will create one output workbook per instruction block inside `generated_tra
 This script is the right starting point for the goal, but you may want one refinement next: if `F43:F50` should hold only description text while measurements and weight belong in neighboring cells, then the script should be updated to write across multiple columns instead of combining all values into one cell. Based on your screenshots and field notes, that may be the next correct step. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/19012317/6afd647f-3c56-4f1b-9880-0ed3cf95434e/2604DSI2801-TRANSPORT-INSTRUCTION-BA3195-CAT-6030-NATRANS-LOAD1-2.xlsx)
 
 
+DD
